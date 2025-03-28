@@ -1,12 +1,35 @@
-# React + Vite
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based user authentication UI built using Vite and styled with Tailwind CSS. The project consists of four pages:
 
-Currently, two official plugins are available:
+Welcome Page - Entry point with options to create an account or log in.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Login Page - Allows users to enter their credentials.
 
-## Expanding the ESLint configuration
+Sign Up Page - Users can create an account.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Account Settings Page - Displays user information and settings.
+
+
+
+Features
+
+Modern and responsive UI design.
+
+Navigation using React Router.
+
+Styled using Tailwind CSS.
+
+Seamless transitions between pages.
+
+
+
+Navigation Flow
+
+The Welcome Page (/) provides options to Create Account (navigates to /signup) or Login (navigates to /login).
+
+On the Login Page (/login), users enter credentials and, upon success, are redirected to the Account Settings Page (/account-settings).
+
+On the Sign Up Page (/signup), users can register and are then redirected to the Account Settings Page.
+
+The Account Settings Page (/account-settings) displays user details and settings.
